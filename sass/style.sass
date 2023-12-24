@@ -14,6 +14,31 @@ body
     display: inline-block
     padding: 8px 16px
 
+.title
+    margin-top: 13px
+    color: #172426
+    font-size: 51px
+    font-weight: 400
+    line-height: 64px
+    letter-spacing: 2.24px
+
+.card
+    &_items
+        margin-top: 96px
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(510px, 1fr))
+        gap: 40px
+        border-radius: 12px
+    &_item
+        padding: 40px 56px 0 56px
+        height: 613px
+        background-color: #F2F8F8
+        &_title
+            color: #172426
+            font-size: 21px
+        &_img
+            margin-top: 40px
+
 .banner
     background-color: #ADC9A6
     &_inner
@@ -74,7 +99,6 @@ body
         &_title
             margin-top: 11px
             color: #172426
-            text-align: center
             font-size: 62px
             line-height: 80px
             letter-spacing: 2.88px
@@ -86,3 +110,14 @@ body
     &_img
         display: block
         margin: 80px auto 0 auto
+
+.landing_pages
+    margin-top: 160px
+    &_wrapper
+        margin: 0 110px
+        width: 1060px
+    &_text
+        margin: 0 auto
+        text-align: center
+        width: 620px
+        height: 256px
