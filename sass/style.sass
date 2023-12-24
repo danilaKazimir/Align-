@@ -22,6 +22,12 @@ body
     line-height: 64px
     letter-spacing: 2.24px
 
+.pages
+    margin-top: 120px
+
+.landing.pages
+    margin-top: 160px    
+
 .card
     &_items
         margin-top: 96px
@@ -38,6 +44,13 @@ body
             font-size: 21px
         &_img
             margin-top: 40px
+    &_wrapper
+        margin: 0 110px
+        width: 1060px
+    &_text
+        margin: 0 auto
+        text-align: center
+        width: 620px
 
 .banner
     background-color: #ADC9A6
@@ -111,13 +124,24 @@ body
         display: block
         margin: 80px auto 0 auto
 
-.landing_pages
-    margin-top: 160px
-    &_wrapper
-        margin: 0 110px
-        width: 1060px
-    &_text
-        margin: 0 auto
-        text-align: center
-        width: 620px
-        height: 256px
+.additional
+    &_items
+        margin-top: 96px
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(510px, 1fr))
+        gap: 40px
+        a
+            text-decoration: none
+    &_item
+        padding: 40px
+        height: 120px
+        background-color: #F2F8F8
+        border-radius: 12px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &:hover
+            background-color: #c5dede
+        &_title
+            color: #172426
+            font-size: 21px
