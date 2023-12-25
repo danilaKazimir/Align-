@@ -1,1 +1,7 @@
-landing for full hd resolution (1920 x 1080) using figma layout - https://www.figma.com/file/B2pzWDGSPDZEbI2GuufenS/Align-%2B?node-id=0%3A1&mode=dev
+page layout from figma https://www.figma.com/file/mAwIe1uu6wROpjULFRgwBp/Align?node-id=1%3A2 for desktop resolution:
+- 1920x1080
+- 1600x900
+- 1536x864
+- 1440x900
+- 1366x768
+- 1280x720
