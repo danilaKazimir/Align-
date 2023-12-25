@@ -1,6 +1,6 @@
 body
     font-family: 'Roboto', sans-serif
-    
+
 .container
     padding: 0 20px
 
@@ -88,7 +88,7 @@ body
                 text-decoration: none
                 transition: 0.3s all
                 &:hover
-                    color: #a4baba
+                    color: #6C8989
         &_btn
             width: 106px
             height: 40px
@@ -123,6 +123,7 @@ body
     &_img
         display: block
         margin: 80px auto 0 auto
+        width: 100%
 
 .additional
     &_items
@@ -140,8 +141,145 @@ body
         display: flex
         justify-content: space-between
         align-items: center
+        transition: 0.3s all
         &:hover
             background-color: #c5dede
         &_title
             color: #172426
             font-size: 21px
+
+.promo
+    &_wrapper
+        background-image: url(../img/promo-background.png)
+        background-repeat: no-repeat
+        height: 304px
+        padding: 64px 0 64px 64px
+    &_title
+        color: #FFF
+        font-size: 36px
+        line-height: 48px
+        letter-spacing: 1.6px
+        width: 454px
+    &_price
+        margin-top: 32px
+        display: flex
+        align-items: flex-start
+        &_value
+            color: #ADC9A6
+            font-size: 40px
+            line-height: 48px
+            min-width: 72px
+        &_text
+            color: #DDE4E4
+            font-size: 12px
+            line-height: 24px
+            letter-spacing: 0.28px
+            width: 124px
+            margin-right: 24px
+        &_btn
+            width: 142px
+            height: 48px
+            border-radius: 4px
+            background-color: #84A17D
+            border: 1px solid #84A17D
+            color: #FFF
+            text-align: center
+            font-size: 13px
+            line-height: 24px
+            transition: 0.3s all
+            &:hover
+                background-color: #789373
+                border: 1px solid #789373
+
+.footer
+    margin-top: 100px
+    padding-top: 100px
+    background-color: #153C3C
+    &_wrapper
+        display: flex
+    &_text
+        max-width: 380px
+        flex: 1
+        margin-right: 87px
+        position: relative
+        &_title
+            color: #FFF
+            font-size: 34px
+            line-height: 48px
+            letter-spacing: 1.6px
+            position: relative
+            z-index: 2
+        &_inner
+            margin-top: 29px
+            color: #DDE4E4
+            font-size: 15px
+            line-height: 28px
+            letter-spacing: 0.32px
+        &_icon
+            width: 88px
+            height: 48px
+            position: absolute
+            top: 16%
+            left: 56%
+    &_nav_blocks
+        flex: 1
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr))
+        gap: 40px
+    &_nav_block
+        &_title
+            color: #F4F5F6
+            font-size: 16px
+        &_list
+            list-style: none
+            padding: 0
+            margin: 0
+            margin-top: 20px
+            font-size: 15px
+            li
+                margin-top: 8px
+                a
+                    text-decoration: none
+                    color: #6C8989
+                    transition: 0.3s all
+                    &:hover
+                        color: #fff
+
+.copyright
+    padding: 100px 0 40px 0
+    background-color: #153C3C                       
+    &_block
+        display: flex
+        justify-content: space-between   
+        &_img
+            padding-right: 10px
+            width: 72px
+            height: 23px
+        &_template, &_powered
+            color: #FFF
+            font-size: 14px
+        &_template::after
+            content: "Flowbase"
+            color: #ADC9A6
+            margin-right: 2px
+        &_powered::after
+            content: "Webflow"
+            color: #ADC9A6
+            margin-left: 2px
+        &_link
+            margin: 0 25px
+            text-decoration: none
+            color: #DDE4E4
+            font-size: 15px
+            transition: 0.3s all
+            &:hover
+                color: #fff
+    &_block > div
+        display: flex
+        align-items: center
+
+@media screen and (max-width: 1400px)
+    .card_wrapper
+        margin: 0
+    .header_nav_wrapper
+        width: 42%
