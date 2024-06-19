@@ -5,3 +5,5 @@ page layout from figma https://www.figma.com/file/mAwIe1uu6wROpjULFRgwBp/Align?n
 - 1440x900
 - 1366x768
 - 1280x720
+
+Link for github pages - https://danilakazimir.github.io/Align-/
